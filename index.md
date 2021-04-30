@@ -53,13 +53,13 @@ juego. Lo que es la parte de la lógica del juego todos tienen una frecuencia de
 es alta. Por último la parte de reiniciar que también es parte de la lógica del juego, se colocó con frecuencia medio porque se espera que esta parte no se ejecute tanto ya que
 la idea es que el jugador no pierda, y al igual que las demás partes de lógica del juego también su criticidad es alta.
 
-### Minimal System Pan
+### Minimal System Span
 
-En el siguiente diagrama se ilustra el minimal system pan del problema.
+En el siguiente diagrama se ilustra el minimal system span del problema.
 
-![Minimal System Pan](https://raw.githubusercontent.com/Soir31/Tarea-corta/main/Minimal.PNG)
+![Minimal System Span](https://raw.githubusercontent.com/Soir31/Tarea-corta/main/Minimal.PNG)
 
-En este caso podemos ver que el system minimal pan sería la parte lógica del juego ya que es lo mínimo que ocupa para funcionar.
+En este caso podemos ver que el minimal system span sería la parte lógica del juego ya que es lo mínimo que ocupa para funcionar.
 
 ### Plan de iteraciones
 
