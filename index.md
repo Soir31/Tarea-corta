@@ -34,7 +34,7 @@ Luego se le añadió un poco más de contexto a las historias anteriores. Luego 
 
 Para mostrar como se organizaron estas historias de usuario se van a utilizar las historias cortas que aparecen de primero.
 
-## Clasificación de las historias
+### Clasificación de las historias
 
 Después de que se definieron las historias principales es necesario clasificarlas según su criticidad y su frecuencia de uso. Para esto se realizaron dos diagramas. El primer
 diagrama que se va a mostrar a continuación es el diagrama en el que se realiza la clasificación según la secuencia en que se realiza cada historia.
@@ -53,7 +53,7 @@ juego. Lo que es la parte de la lógica del juego todos tienen una frecuencia de
 es alta. Por último la parte de reiniciar que también es parte de la lógica del juego, se colocó con frecuencia medio porque se espera que esta parte no se ejecute tanto ya que
 la idea es que el jugador no pierda, y al igual que las demás partes de lógica del juego también su criticidad es alta.
 
-## Minimal System Pan
+### Minimal System Pan
 
 En el siguiente diagrama se ilustra el minimal system pan del problema.
 
@@ -61,7 +61,7 @@ En el siguiente diagrama se ilustra el minimal system pan del problema.
 
 En este caso podemos ver que el system minimal pan sería la parte lógica del juego ya que es lo mínimo que ocupa para funcionar.
 
-## Plan de iteraciones
+### Plan de iteraciones
 
 Para el plan de iteraciones se dividieron las historias de usuario en dos grupos. El primer grupo es el que se realiza primero y el segundo grupo es el que se realiza depués.
 El primer grupo estaría compuesto por dos historias de usuario que serían:
@@ -75,7 +75,7 @@ El segundo grupo está conformado por las demás historias de usuario que sería
 * Aumentar una secuencia aleatoria de colores.
 * Reiniciar una secuencia aleatoria de colores.
 
-## Diagrama de clases
+### Diagrama de clases
 
 Se elaboró un pequeño diagrama de clases para tener una idea general del funcionamiento del juego de memoria. El diagrama de clases se muestra en la siguiente imagen.
 
