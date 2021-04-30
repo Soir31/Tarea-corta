@@ -75,6 +75,14 @@ El segundo grupo está conformado por las demás historias de usuario que sería
 * Aumentar una secuencia aleatoria de colores.
 * Reiniciar una secuencia aleatoria de colores.
 
+### Diagrama conceptual
+
+En el siguiente diagrama se muestra como es que serviría el juego con la secuencia generada aleatoriamente.
+
+![Conceptual Diagram](https://raw.githubusercontent.com/Soir31/Tarea-corta/main/Conceptual%20Diagram.png)
+
+Se puede observar la secuencia que seguiría el programa y cuando llega a su final y cuando es que seguiría ejecutándose.
+
 ### Diagrama de clases
 
 Se elaboró un pequeño diagrama de clases para tener una idea general del funcionamiento del juego de memoria. El diagrama de clases se muestra en la siguiente imagen.
