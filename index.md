@@ -1,12 +1,23 @@
-## Welcome to GitHub Pages
+## Tarea Corta
 
-You can use the [editor on GitHub](https://github.com/Soir31/Tarea-corta/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+En esta tarea se va a demostrar como resolver el problema de crear un juego en el que se tiene que recordar una secuencia de colores y el jugador deberá seleccionar esa
+secuencia y llegar lo más lejos posible. Si el jugador se equivoca tiene que comenzar de nuevo con una nueva secuencia aleatoria.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Historias de usuario
 
-### Markdown
+Antes de comenzar a pensar en la solución del problema, primero hay que establecer historias de usuario para tener una idea general de qué es lo que se ocupa para resolver el
+problema y que cosas serían las más importantes para poder hacer el juego satisfactoriamente.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Lo primero que se hizo fue identificar las principales características que ocupa el juego. Con esas características se establecieron historias de usuario simples las cuáles
+se especifican a continuación:
+* Crear un juego de memoria.
+* Crear una interfaz gráfica para el juego.
+* Crear una secuencia aleatoria de colores.
+* Guardar una secuencia aleatoria de colores.
+* Recordar una secuencia aleatoria de colores.
+* Aumentar una secuencia aleatoria de colores.
+* Reiniciar una secuencia aleatoria de colores.
+
 
 ```markdown
 Syntax highlighted code block
