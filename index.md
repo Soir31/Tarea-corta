@@ -33,8 +33,9 @@ Para mostrar como se organizaron estas historias de usuario se van a utilizar la
 Después de que se definieron las historias principales es necesario clasificarlas según su criticidad y su frecuencia de uso. Para esto se realizaron dos diagramas. El primer
 diagrama que se va a mostrar a continuación es el diagrama en el que se realiza la clasificación según la secuencia en que se realiza cada historia.
 
-```markdown
-Syntax highlighted code block
+![Usage Sequence](https://raw.githubusercontent.com/Soir31/Tarea-corta/main/Usage_Sequence.PNG)
+
+```markdown)
 
 # Header 1
 ## Header 2
