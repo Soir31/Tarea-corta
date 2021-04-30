@@ -1,4 +1,4 @@
-## Tarea Corta
+## SimonTEC
 
 En esta tarea se va a demostrar como resolver el problema de crear un juego en el que se tiene que recordar una secuencia de colores y el jugador deberá seleccionar esa
 secuencia y llegar lo más lejos posible. Si el jugador se equivoca tiene que comenzar de nuevo con una nueva secuencia aleatoria.
@@ -18,6 +18,20 @@ se especifican a continuación:
 * Aumentar una secuencia aleatoria de colores.
 * Reiniciar una secuencia aleatoria de colores.
 
+Luego se le añadió un poco más de contexto a las historias anteriores. Luego de hacer algunos ajustes las historias de usuario quedaron de la siguiente forma:
+* Yo como usuario quiero un juego de memoria que tenga temática de colores para así poder tener un juego bueno para la mente.
+* Yo como usuario quiero que el juego esté en forma de ruleta y dividida en 4 espacios para que así sea más fácil recordar la secuencia.
+* Yo como usuario quiero que la secuencia se genere aleatoriamente para así darle dificultad al juego.
+* Yo como usuario quiero que la secuencia se vaya guardando para que así pueda recordar el patrón aleatorio de colores que han salido.
+* Yo como usuario quiero que la secuencia vaya aumentando cada vez que acerte un color para que el juego se vuelva todavía más difícil.
+* Yo como usuario quiero que la secuencia se reinicie cuando me equivoque para así poder empezar el jugo otra vez.
+
+Para mostrar como se organizaron estas historias de usuario se van a utilizar las historias cortas que aparecen de primero.
+
+## Clasificación de las historias
+
+Después de que se definieron las historias principales es necesario clasificarlas según su criticidad y su frecuencia de uso. Para esto se realizaron dos diagramas. El primer
+diagrama que se va a mostrar a continuación es el diagrama en el que se realiza la clasificación según la secuencia en que se realiza cada historia.
 
 ```markdown
 Syntax highlighted code block
