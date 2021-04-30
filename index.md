@@ -7,7 +7,8 @@ En esta imagen se muestra como es que se vería el juego.
 
 ![Interface](https://raw.githubusercontent.com/Soir31/Tarea-corta/main/Interface.PNG)
 
-Una vez que se pulse el botón de "start" el juego comienza y el jugador tiene que darle click al color según se vaya generando la secuencia.
+Una vez que se pulse el botón de "start" el juego comienza y el jugador tiene que darle click al color según se vaya generando la secuencia. Cada vez que se agregue un color a 
+la secuencia el nivel que se puede ver en el centro aumenta y también aumenta la velocidad en que se genera la secuencia.
 
 ### Historias de usuario
 
@@ -79,7 +80,7 @@ El segundo grupo está conformado por las demás historias de usuario que sería
 
 En el siguiente diagrama se muestra como es que serviría el juego con la secuencia generada aleatoriamente.
 
-![Conceptual Diagram](https://raw.githubusercontent.com/Soir31/Tarea-corta/main/Conceptual%20Diagram.png)
+![Conceptual Diagram](https://raw.githubusercontent.com/Soir31/Tarea-corta/main/Conceptual.png)
 
 Se puede observar la secuencia que seguiría el programa y cuando llega a su final y cuando es que seguiría ejecutándose.
 
