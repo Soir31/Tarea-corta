@@ -3,6 +3,12 @@
 En esta tarea se va a demostrar como resolver el problema de crear un juego en el que se tiene que recordar una secuencia de colores y el jugador deberá seleccionar esa
 secuencia y llegar lo más lejos posible. Si el jugador se equivoca tiene que comenzar de nuevo con una nueva secuencia aleatoria.
 
+En esta imagen se muestra como es que se vería el juego.
+
+![Interface](https://raw.githubusercontent.com/Soir31/Tarea-corta/main/Interface.PNG)
+
+Una vez que se pulse el botón de "start" el juego comienza y el jugador tiene que darle click al color según se vaya generando la secuencia.
+
 ### Historias de usuario
 
 Antes de comenzar a pensar en la solución del problema, primero hay que establecer historias de usuario para tener una idea general de qué es lo que se ocupa para resolver el
@@ -35,29 +41,45 @@ diagrama que se va a mostrar a continuación es el diagrama en el que se realiza
 
 ![Usage Sequence](https://raw.githubusercontent.com/Soir31/Tarea-corta/main/Usage_Sequence.PNG)
 
-```markdown)
+Como se puede ver en la imagen anterior lo primero que se debe hacer es crear el juego y su interfaz gráfica, luego se crea, guarda y recuerda la secuencia aleatoria, después se
+aumenta la secuencia y por último se reinicia la secuencia si el jugador perdió el juego.
 
-# Header 1
-## Header 2
-### Header 3
+En la siguiente imagen se mostrará el diagrama realizado para la frecuencia de uso y la criticidad de las historias de usuario.
 
-- Bulleted
-- List
+![Frequency and Criticity](https://raw.githubusercontent.com/Soir31/Tarea-corta/main/Criticidad.PNG)
 
-1. Numbered
-2. List
+En la imagen se puede apreciar que el juego y la interfaz solo se construyen una vez por lo que su frecuencia de uso es baja pero su criticidad es alta ya que sin ellos no hay
+juego. Lo que es la parte de la lógica del juego todos tienen una frecuencia de uso alta porque se van ejecutando conforme avanza el juego y debido a ello su criticidad también
+es alta. Por último la parte de reiniciar que también es parte de la lógica del juego, se colocó con frecuencia medio porque se espera que esta parte no se ejecute tanto ya que
+la idea es que el jugador no pierda, y al igual que las demás partes de lógica del juego también su criticidad es alta.
 
-**Bold** and _Italic_ and `Code` text
+## Minimal System Pan
 
-[Link](url) and ![Image](src)
-```
+En el siguiente diagrama se ilustra el minimal system pan del problema.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![Minimal System Pan](https://raw.githubusercontent.com/Soir31/Tarea-corta/main/Minimal.PNG)
 
-### Jekyll Themes
+En este caso podemos ver que el system minimal pan sería la parte lógica del juego ya que es lo mínimo que ocupa para funcionar.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Soir31/Tarea-corta/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Plan de iteraciones
 
-### Support or Contact
+Para el plan de iteraciones se dividieron las historias de usuario en dos grupos. El primer grupo es el que se realiza primero y el segundo grupo es el que se realiza depués.
+El primer grupo estaría compuesto por dos historias de usuario que serían:
+* Crear un juego de memoria.
+* Crear una interfaz gráfica para el juego.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+El segundo grupo está conformado por las demás historias de usuario que serían:
+* Crear una secuencia aleatoria de colores.
+* Guardar una secuencia aleatoria de colores.
+* Recordar una secuencia aleatoria de colores.
+* Aumentar una secuencia aleatoria de colores.
+* Reiniciar una secuencia aleatoria de colores.
+
+## Diagrama de clases
+
+Se elaboró un pequeño diagrama de clases para tener una idea general del funcionamiento del juego de memoria. El diagrama de clases se muestra en la siguiente imagen.
+
+![Class Diagram](https://raw.githubusercontent.com/Soir31/Tarea-corta/main/Class%20Diagram.png)
+
+### Made by:
+* Erick Daniel Obando Venegas 2019057555
