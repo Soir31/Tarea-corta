@@ -88,7 +88,7 @@ Se puede observar la secuencia que seguiría el programa y cuando llega a su fin
 
 Se elaboró un pequeño diagrama de clases para tener una idea general del funcionamiento del juego de memoria. El diagrama de clases se muestra en la siguiente imagen.
 
-![Class Diagram](https://raw.githubusercontent.com/Soir31/Tarea-corta/main/Class%20Diagram.png)
+![Class Diagram](Class Diagram.png)
 
 ### Made by:
 * Erick Daniel Obando Venegas 2019057555
